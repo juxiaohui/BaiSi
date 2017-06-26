@@ -13,6 +13,15 @@
 		F70724811EFBC53F005C624F /* BaiSiBuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F70724801EFBC53F005C624F /* BaiSiBuDeJieUITests.m */; };
 		F70724B11EFBCE36005C624F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70724B01EFBCE36005C624F /* AppDelegate.m */; };
 		F70724B51EFBCE4B005C624F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F70724B41EFBCE4B005C624F /* main.m */; };
+		F7D8F9901F00B36900F3E4A8 /* XHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F98F1F00B36900F3E4A8 /* XHTabBarController.m */; };
+		F7D8F9931F00B39800F3E4A8 /* XHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9921F00B39800F3E4A8 /* XHNavigationController.m */; };
+		F7D8F9961F00B3D300F3E4A8 /* XHEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9951F00B3D300F3E4A8 /* XHEssenceViewController.m */; };
+		F7D8F9991F00B41200F3E4A8 /* XHNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9981F00B41200F3E4A8 /* XHNewViewController.m */; };
+		F7D8F99C1F00B43A00F3E4A8 /* XHFollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F99B1F00B43A00F3E4A8 /* XHFollowViewController.m */; };
+		F7D8F99F1F00B47D00F3E4A8 /* XHMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F99E1F00B47D00F3E4A8 /* XHMeTableViewController.m */; };
+		F7D8F9AA1F00D9A000F3E4A8 /* UIImage+XHExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9A91F00D9A000F3E4A8 /* UIImage+XHExt.m */; };
+		F7D8F9AD1F00E1D600F3E4A8 /* XHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9AC1F00E1D600F3E4A8 /* XHTabBar.m */; };
+		F7D8F9B01F00E24200F3E4A8 /* UIView+XHExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9AF1F00E24200F3E4A8 /* UIView+XHExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,26 @@
 		F70724AF1EFBCE36005C624F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F70724B01EFBCE36005C624F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F70724B41EFBCE4B005C624F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7D8F98E1F00B36900F3E4A8 /* XHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTabBarController.h; sourceTree = "<group>"; };
+		F7D8F98F1F00B36900F3E4A8 /* XHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTabBarController.m; sourceTree = "<group>"; };
+		F7D8F9911F00B39800F3E4A8 /* XHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNavigationController.h; sourceTree = "<group>"; };
+		F7D8F9921F00B39800F3E4A8 /* XHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNavigationController.m; sourceTree = "<group>"; };
+		F7D8F9941F00B3D300F3E4A8 /* XHEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHEssenceViewController.h; sourceTree = "<group>"; };
+		F7D8F9951F00B3D300F3E4A8 /* XHEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHEssenceViewController.m; sourceTree = "<group>"; };
+		F7D8F9971F00B41200F3E4A8 /* XHNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNewViewController.h; sourceTree = "<group>"; };
+		F7D8F9981F00B41200F3E4A8 /* XHNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNewViewController.m; sourceTree = "<group>"; };
+		F7D8F99A1F00B43A00F3E4A8 /* XHFollowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFollowViewController.h; sourceTree = "<group>"; };
+		F7D8F99B1F00B43A00F3E4A8 /* XHFollowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFollowViewController.m; sourceTree = "<group>"; };
+		F7D8F99D1F00B47D00F3E4A8 /* XHMeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMeTableViewController.h; sourceTree = "<group>"; };
+		F7D8F99E1F00B47D00F3E4A8 /* XHMeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHMeTableViewController.m; sourceTree = "<group>"; };
+		F7D8F9A01F00D5B300F3E4A8 /* XHPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPrefixHeader.pch; sourceTree = "<group>"; };
+		F7D8F9A21F00D6C100F3E4A8 /* XHMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHMacro.h; sourceTree = "<group>"; };
+		F7D8F9A81F00D9A000F3E4A8 /* UIImage+XHExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XHExt.h"; sourceTree = "<group>"; };
+		F7D8F9A91F00D9A000F3E4A8 /* UIImage+XHExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XHExt.m"; sourceTree = "<group>"; };
+		F7D8F9AB1F00E1D600F3E4A8 /* XHTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTabBar.h; sourceTree = "<group>"; };
+		F7D8F9AC1F00E1D600F3E4A8 /* XHTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTabBar.m; sourceTree = "<group>"; };
+		F7D8F9AE1F00E24200F3E4A8 /* UIView+XHExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XHExt.h"; sourceTree = "<group>"; };
+		F7D8F9AF1F00E24200F3E4A8 /* UIView+XHExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XHExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +183,8 @@
 		F707248E1EFBCDA6005C624F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				F7D8F9A31F00D95300F3E4A8 /* Utility */,
+				F7D8F98A1F00B32C00F3E4A8 /* Main */,
 				F707248F1EFBCDA6005C624F /* Essence */,
 				F707249B1EFBCDA6005C624F /* New */,
 				F70724A31EFBCDA6005C624F /* Publish */,
@@ -177,6 +208,8 @@
 		F70724901EFBCDA6005C624F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7D8F9941F00B3D300F3E4A8 /* XHEssenceViewController.h */,
+				F7D8F9951F00B3D300F3E4A8 /* XHEssenceViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -208,6 +241,8 @@
 		F70724941EFBCDA6005C624F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7D8F99A1F00B43A00F3E4A8 /* XHFollowViewController.h */,
+				F7D8F99B1F00B43A00F3E4A8 /* XHFollowViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,6 +274,8 @@
 		F70724981EFBCDA6005C624F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7D8F99D1F00B47D00F3E4A8 /* XHMeTableViewController.h */,
+				F7D8F99E1F00B47D00F3E4A8 /* XHMeTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -270,6 +307,8 @@
 		F707249C1EFBCDA6005C624F /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F7D8F9971F00B41200F3E4A8 /* XHNewViewController.h */,
+				F7D8F9981F00B41200F3E4A8 /* XHNewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -294,6 +333,8 @@
 				F70724B41EFBCE4B005C624F /* main.m */,
 				F70724AF1EFBCE36005C624F /* AppDelegate.h */,
 				F70724B01EFBCE36005C624F /* AppDelegate.m */,
+				F7D8F9A01F00D5B300F3E4A8 /* XHPrefixHeader.pch */,
+				F7D8F9A21F00D6C100F3E4A8 /* XHMacro.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -327,6 +368,62 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		F7D8F98A1F00B32C00F3E4A8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8F98B1F00B32C00F3E4A8 /* Controller */,
+				F7D8F98C1F00B32C00F3E4A8 /* Model */,
+				F7D8F98D1F00B32C00F3E4A8 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F7D8F98B1F00B32C00F3E4A8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8F98E1F00B36900F3E4A8 /* XHTabBarController.h */,
+				F7D8F98F1F00B36900F3E4A8 /* XHTabBarController.m */,
+				F7D8F9911F00B39800F3E4A8 /* XHNavigationController.h */,
+				F7D8F9921F00B39800F3E4A8 /* XHNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7D8F98C1F00B32C00F3E4A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7D8F98D1F00B32C00F3E4A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8F9AB1F00E1D600F3E4A8 /* XHTabBar.h */,
+				F7D8F9AC1F00E1D600F3E4A8 /* XHTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F7D8F9A31F00D95300F3E4A8 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8F9A41F00D95300F3E4A8 /* Category */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F7D8F9A41F00D95300F3E4A8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F7D8F9A81F00D9A000F3E4A8 /* UIImage+XHExt.h */,
+				F7D8F9A91F00D9A000F3E4A8 /* UIImage+XHExt.m */,
+				F7D8F9AE1F00E24200F3E4A8 /* UIView+XHExt.h */,
+				F7D8F9AF1F00E24200F3E4A8 /* UIView+XHExt.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -515,8 +612,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7D8F9B01F00E24200F3E4A8 /* UIView+XHExt.m in Sources */,
+				F7D8F9961F00B3D300F3E4A8 /* XHEssenceViewController.m in Sources */,
+				F7D8F99C1F00B43A00F3E4A8 /* XHFollowViewController.m in Sources */,
 				F70724B51EFBCE4B005C624F /* main.m in Sources */,
 				F70724B11EFBCE36005C624F /* AppDelegate.m in Sources */,
+				F7D8F9901F00B36900F3E4A8 /* XHTabBarController.m in Sources */,
+				F7D8F99F1F00B47D00F3E4A8 /* XHMeTableViewController.m in Sources */,
+				F7D8F9931F00B39800F3E4A8 /* XHNavigationController.m in Sources */,
+				F7D8F9AD1F00E1D600F3E4A8 /* XHTabBar.m in Sources */,
+				F7D8F9991F00B41200F3E4A8 /* XHNewViewController.m in Sources */,
+				F7D8F9AA1F00D9A000F3E4A8 /* UIImage+XHExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -649,6 +755,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = A283XVT2UF;
+				GCC_PREFIX_HEADER = /Users/jxh/Desktop/BaiSi/BaiSiBuDeJie/Classes/Other/XHPrefixHeader.pch;
 				INFOPLIST_FILE = BaiSiBuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -665,6 +772,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = A283XVT2UF;
+				GCC_PREFIX_HEADER = /Users/jxh/Desktop/BaiSi/BaiSiBuDeJie/Classes/Other/XHPrefixHeader.pch;
 				INFOPLIST_FILE = BaiSiBuDeJie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

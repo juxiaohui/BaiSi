@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "XHTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -17,16 +18,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
    
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    
-    UITabBarController * tabVc = [[UITabBarController alloc]init];
-    
-    self.window.rootViewController =tabVc;
-    
-    [self.window makeKeyAndVisible];
+    [self setupRootViewController];
     
     return YES;
 }
+
+-(void)setupRootViewController{
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window.rootViewController=[[XHTabBarController alloc]init];
+    
+    [self.window makeKeyAndVisible];
+    
+}
+
+    
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

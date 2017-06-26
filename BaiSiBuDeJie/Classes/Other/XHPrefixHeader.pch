@@ -1,0 +1,27 @@
+//
+//  XHPrefixHeader.pch
+//  BaiSiBuDeJie
+//
+//  Created by jxh on 2017/6/26.
+//  Copyright © 2017年 JuXiaoHui. All rights reserved.
+//
+
+//**************设置SDK适用的版本*****************
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+
+#endif
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+
+#import <Foundation/Foundation.h>
+
+#import "XHMacro.h"
+
+#endif /* JXHPrefixHeader_pch */
