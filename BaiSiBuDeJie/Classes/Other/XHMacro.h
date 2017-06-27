@@ -42,9 +42,9 @@
 #define XHBoldFont(size) [UIFont boldSystemFontOfSize:size]
 
 
-#define XHCommonBgColor JXHRGBColor(215,215,215);
+#define XHCommonBgColor XHRGBColor(215,215,215);
 
-#define XHLogFunc JXHLog(@"%s", __func__);
+#define XHLogFunc XHLog(@"%s", __func__);
 
 #define XHWeakSelf __weak typeof(self) weakSelf = self;
 

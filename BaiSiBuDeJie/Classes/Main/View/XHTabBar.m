@@ -7,7 +7,6 @@
 //
 
 #import "XHTabBar.h"
-#import "UIView+XHExt.h"
 
 @interface XHTabBar ()
 

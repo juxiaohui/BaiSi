@@ -7,6 +7,7 @@
 //
 
 #import "XHMeTableViewController.h"
+#import "UIBarButtonItem+XHExt.h"
 
 
 @interface XHMeTableViewController ()
@@ -18,12 +19,37 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self setupNav];
 }
+
+-(void)setupNav{
+    
+    self.view.backgroundColor = XHCommonBgColor;
+    
+    UIBarButtonItem * settingItem = [UIBarButtonItem itemWithImage:@"mine-setting-icon" highImage:@"mine-setting-icon-click" target:self action:@selector(setting)];
+    
+    UIBarButtonItem * nightItem = [UIBarButtonItem itemWithImage:@"mine-moon-icon" selected:@"mine-moon-icon-click" target:self action:@selector(night:)];
+    
+    self.navigationItem.rightBarButtonItems = @[settingItem,nightItem];
+}
+
+-(void)setting{
+    
+    UIViewController * settingVc = [[UIViewController alloc]init];
+    
+    settingVc.hidesBottomBarWhenPushed = YES;
+    
+    settingVc.view.backgroundColor = [UIColor purpleColor];
+    
+    [self.navigationController pushViewController:settingVc animated:YES];
+}
+
+-(void)night:(UIButton *)btn{
+    
+    btn.selected = !btn.selected;
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -33,12 +59,11 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
+
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
     return 0;
 }
 

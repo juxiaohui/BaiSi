@@ -58,6 +58,8 @@
         [tabBarItem setTitleTextAttributes:normalDic forState:UIControlStateNormal];
         
         [tabBarItem setTitleTextAttributes:selectlDic forState:UIControlStateSelected];
+        
+        [[UITabBar appearance] setShadowImage:[UIImage new]];
     }
 }
 

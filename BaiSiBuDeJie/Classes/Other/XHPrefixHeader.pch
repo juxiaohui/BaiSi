@@ -24,4 +24,6 @@
 
 #import "XHMacro.h"
 
+#import "UIView+XHExt.h"
+
 #endif /* JXHPrefixHeader_pch */

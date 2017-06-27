@@ -7,6 +7,7 @@
 //
 
 #import "XHFollowViewController.h"
+#import "UIBarButtonItem+XHExt.h"
 
 @interface XHFollowViewController ()
 
@@ -16,9 +17,25 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setupNav];
 }
 
+
+-(void)setupNav{
+    
+    self.view.backgroundColor = XHCommonBgColor;
+
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsRecommentClick)];
+    
+    self.navigationItem.title = @"我的关注";
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithTitle:@"我的关注" style:UIBarButtonItemStylePlain target:self action:nil];
+    
+}
+
+-(void)friendsRecommentClick{
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -7,6 +7,7 @@
 //
 
 #import "XHNewViewController.h"
+#import "UIBarButtonItem+XHExt.h"
 
 @interface XHNewViewController ()
 
@@ -16,8 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self setupNav];
 }
+
+-(void)setupNav{
+    
+    self.view.backgroundColor = XHCommonBgColor;
+    
+    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)];
+}
+
+-(void)tagClick{
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

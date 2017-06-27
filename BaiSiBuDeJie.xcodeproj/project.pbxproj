@@ -13,6 +13,7 @@
 		F70724811EFBC53F005C624F /* BaiSiBuDeJieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F70724801EFBC53F005C624F /* BaiSiBuDeJieUITests.m */; };
 		F70724B11EFBCE36005C624F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70724B01EFBCE36005C624F /* AppDelegate.m */; };
 		F70724B51EFBCE4B005C624F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F70724B41EFBCE4B005C624F /* main.m */; };
+		F7204A251F00F5B800D1D958 /* UIBarButtonItem+XHExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F7204A241F00F5B800D1D958 /* UIBarButtonItem+XHExt.m */; };
 		F7D8F9901F00B36900F3E4A8 /* XHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F98F1F00B36900F3E4A8 /* XHTabBarController.m */; };
 		F7D8F9931F00B39800F3E4A8 /* XHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9921F00B39800F3E4A8 /* XHNavigationController.m */; };
 		F7D8F9961F00B3D300F3E4A8 /* XHEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9951F00B3D300F3E4A8 /* XHEssenceViewController.m */; };
@@ -57,6 +58,8 @@
 		F70724AF1EFBCE36005C624F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F70724B01EFBCE36005C624F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F70724B41EFBCE4B005C624F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7204A231F00F5B800D1D958 /* UIBarButtonItem+XHExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XHExt.h"; sourceTree = "<group>"; };
+		F7204A241F00F5B800D1D958 /* UIBarButtonItem+XHExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XHExt.m"; sourceTree = "<group>"; };
 		F7D8F98E1F00B36900F3E4A8 /* XHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTabBarController.h; sourceTree = "<group>"; };
 		F7D8F98F1F00B36900F3E4A8 /* XHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTabBarController.m; sourceTree = "<group>"; };
 		F7D8F9911F00B39800F3E4A8 /* XHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNavigationController.h; sourceTree = "<group>"; };
@@ -422,6 +425,8 @@
 				F7D8F9A91F00D9A000F3E4A8 /* UIImage+XHExt.m */,
 				F7D8F9AE1F00E24200F3E4A8 /* UIView+XHExt.h */,
 				F7D8F9AF1F00E24200F3E4A8 /* UIView+XHExt.m */,
+				F7204A231F00F5B800D1D958 /* UIBarButtonItem+XHExt.h */,
+				F7204A241F00F5B800D1D958 /* UIBarButtonItem+XHExt.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -616,6 +621,7 @@
 				F7D8F9961F00B3D300F3E4A8 /* XHEssenceViewController.m in Sources */,
 				F7D8F99C1F00B43A00F3E4A8 /* XHFollowViewController.m in Sources */,
 				F70724B51EFBCE4B005C624F /* main.m in Sources */,
+				F7204A251F00F5B800D1D958 /* UIBarButtonItem+XHExt.m in Sources */,
 				F70724B11EFBCE36005C624F /* AppDelegate.m in Sources */,
 				F7D8F9901F00B36900F3E4A8 /* XHTabBarController.m in Sources */,
 				F7D8F99F1F00B47D00F3E4A8 /* XHMeTableViewController.m in Sources */,
