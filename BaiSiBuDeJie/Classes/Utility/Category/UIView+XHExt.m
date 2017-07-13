@@ -2,7 +2,7 @@
 //  UIView+XHExt.m
 //  BaiSiBuDeJie
 //
-//  Created by jxh on 2017/6/26.
+//  Created by XH on 2017/6/26.
 //  Copyright © 2017年 JuXiaoHui. All rights reserved.
 //
 
@@ -22,7 +22,6 @@
     frame.origin.x=xh_x;
     
     self.frame=frame;
-    
 }
 
 -(CGFloat)xh_y{
@@ -121,5 +120,10 @@
     return CGRectGetMaxY(self.frame);
 }
 
+-(void)setupCornerWithRadius:(CGFloat)radius{
+    
+    self.clipsToBounds = YES;
+    self.layer.cornerRadius = radius;
+}
 
 @end

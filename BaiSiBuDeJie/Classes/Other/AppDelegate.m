@@ -2,12 +2,13 @@
 //  AppDelegate.m
 //  BaiSiBuDeJie
 //
-//  Created by jxh on 2017/6/22.
+//  Created by XH on 2017/6/22.
 //  Copyright © 2017年 JuXiaoHui. All rights reserved.
 //
 
 #import "AppDelegate.h"
 #import "XHTabBarController.h"
+#import "XHAdViewController.h"
 
 @interface AppDelegate ()
 
@@ -27,10 +28,15 @@
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-    self.window.rootViewController=[[XHTabBarController alloc]init];
+//    self.window.rootViewController=[[XHTabBarController alloc]init];
+    
+    XHAdViewController * adViewController = [[XHAdViewController alloc]init];
+    
+    self.window.rootViewController = adViewController;
+    
     
     [self.window makeKeyAndVisible];
-    
+
 }
 
     

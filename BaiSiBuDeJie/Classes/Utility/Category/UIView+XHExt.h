@@ -2,7 +2,7 @@
 //  UIView+XHExt.h
 //  BaiSiBuDeJie
 //
-//  Created by jxh on 2017/6/26.
+//  Created by XH on 2017/6/26.
 //  Copyright © 2017年 JuXiaoHui. All rights reserved.
 //
 
@@ -25,5 +25,9 @@
 @property (nonatomic, assign) CGFloat xh_right;
 
 @property (nonatomic, assign) CGFloat xh_bottom;
+
+/// 设置圆角半径
+-(void)setupCornerWithRadius:(CGFloat)radius;
+
 
 @end

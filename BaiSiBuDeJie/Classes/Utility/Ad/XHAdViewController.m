@@ -1,38 +1,29 @@
 //
-//  XHNewViewController.m
+//  XHAdViewController.m
 //  BaiSiBuDeJie
 //
-//  Created by XH on 2017/6/26.
+//  Created by jxh on 2017/7/13.
 //  Copyright © 2017年 JuXiaoHui. All rights reserved.
 //
 
-#import "XHNewViewController.h"
-#import "UIBarButtonItem+XHExt.h"
+#import "XHAdViewController.h"
 
-@interface XHNewViewController ()
+@interface XHAdViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *launchImageView;
+@property (weak, nonatomic) IBOutlet UIView *contentView;
 
+@property (weak, nonatomic) IBOutlet UIButton *skipBtn;
 @end
 
-@implementation XHNewViewController
+@implementation XHAdViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupNav];
+   
+    [self.skipBtn setupCornerWithRadius:5.f];
 }
-
--(void)setupNav{
-    
-    self.view.backgroundColor = XHCommonBgColor;
-    
-    self.navigationItem.titleView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"MainTitle"]];
-    
-    self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"MainTagSubIcon" highImage:@"MainTagSubIconClick" target:self action:@selector(tagClick)];
+- (IBAction)skipBtnClick:(UIButton *)sender {
 }
-
--(void)tagClick{
-    
-}
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

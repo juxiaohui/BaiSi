@@ -2,7 +2,7 @@
 //  BaiSiBuDeJieUITests.m
 //  BaiSiBuDeJieUITests
 //
-//  Created by jxh on 2017/6/22.
+//  Created by XH on 2017/6/22.
 //  Copyright © 2017年 JuXiaoHui. All rights reserved.
 //
 

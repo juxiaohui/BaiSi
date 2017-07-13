@@ -2,7 +2,7 @@
 //  XHMacro.h
 //  BaiSiBuDeJie
 //
-//  Created by jxh on 2017/6/26.
+//  Created by XH on 2017/6/26.
 //  Copyright © 2017年 JuXiaoHui. All rights reserved.
 //
 
@@ -13,11 +13,11 @@
 //**************调试和发布版本之间的设置*****************
 #ifdef DEBUG //调试模式--模拟器
 
-#define JXHLog(...) NSLog(__VA_ARGS__)  //公司自定义打印
+#define XHLog(...) NSLog(__VA_ARGS__)  //公司自定义打印
 
 #else //发布模式 RELEASE--真机
 
-#define JXHLog(...)  //发布版本下取消自定义打印，自定义打印不起作用
+#define XHLog(...)  //发布版本下取消自定义打印，自定义打印不起作用
 
 #endif
 //**************所有objective-c文件共享的头文件*****************
