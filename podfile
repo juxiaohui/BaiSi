@@ -12,6 +12,7 @@ pod 'AFNetworking', '~>3.1.0'
 pod 'SDWebImage'
 pod 'MJExtension'
 pod 'MJRefresh'
+pod 'BANetManager'
 
 # use_frameworks!
 # pod 'ReactiveCocoa'

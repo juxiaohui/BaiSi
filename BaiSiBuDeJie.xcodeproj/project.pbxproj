@@ -14,7 +14,6 @@
 		F70724B11EFBCE36005C624F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F70724B01EFBCE36005C624F /* AppDelegate.m */; };
 		F70724B51EFBCE4B005C624F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F70724B41EFBCE4B005C624F /* main.m */; };
 		F7204A251F00F5B800D1D958 /* UIBarButtonItem+XHExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F7204A241F00F5B800D1D958 /* UIBarButtonItem+XHExt.m */; };
-		F79E06E51F023F3400CA7859 /* XHNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F79E06E41F023F3400CA7859 /* XHNetWorkRequest.m */; };
 		F7D8F9901F00B36900F3E4A8 /* XHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F98F1F00B36900F3E4A8 /* XHTabBarController.m */; };
 		F7D8F9931F00B39800F3E4A8 /* XHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9921F00B39800F3E4A8 /* XHNavigationController.m */; };
 		F7D8F9961F00B3D300F3E4A8 /* XHEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9951F00B3D300F3E4A8 /* XHEssenceViewController.m */; };
@@ -25,8 +24,10 @@
 		F7D8F9AD1F00E1D600F3E4A8 /* XHTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9AC1F00E1D600F3E4A8 /* XHTabBar.m */; };
 		F7D8F9B01F00E24200F3E4A8 /* UIView+XHExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F7D8F9AF1F00E24200F3E4A8 /* UIView+XHExt.m */; };
 		F7DB59BC1F174963004430A5 /* XHUserDefaultsTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB59BB1F174963004430A5 /* XHUserDefaultsTool.m */; };
-		F7DB59C11F1749DB004430A5 /* XHAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB59BF1F1749DB004430A5 /* XHAdViewController.m */; };
-		F7DB59C21F1749DB004430A5 /* XHAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DB59C01F1749DB004430A5 /* XHAdViewController.xib */; };
+		F7DB59C51F175738004430A5 /* XHNetWorkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB59C41F175738004430A5 /* XHNetWorkRequest.m */; };
+		F7DB59CC1F175F04004430A5 /* XHAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB59C81F175F04004430A5 /* XHAdViewController.m */; };
+		F7DB59CD1F175F04004430A5 /* XHAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7DB59C91F175F04004430A5 /* XHAdViewController.xib */; };
+		F7DB59D01F175F23004430A5 /* XHAdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DB59CF1F175F23004430A5 /* XHAdModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +65,6 @@
 		F70724B41EFBCE4B005C624F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7204A231F00F5B800D1D958 /* UIBarButtonItem+XHExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XHExt.h"; sourceTree = "<group>"; };
 		F7204A241F00F5B800D1D958 /* UIBarButtonItem+XHExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XHExt.m"; sourceTree = "<group>"; };
-		F79E06E31F023F3400CA7859 /* XHNetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNetWorkRequest.h; sourceTree = "<group>"; };
-		F79E06E41F023F3400CA7859 /* XHNetWorkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNetWorkRequest.m; sourceTree = "<group>"; };
 		F7D8F98E1F00B36900F3E4A8 /* XHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHTabBarController.h; sourceTree = "<group>"; };
 		F7D8F98F1F00B36900F3E4A8 /* XHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHTabBarController.m; sourceTree = "<group>"; };
 		F7D8F9911F00B39800F3E4A8 /* XHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNavigationController.h; sourceTree = "<group>"; };
@@ -88,9 +87,13 @@
 		F7D8F9AF1F00E24200F3E4A8 /* UIView+XHExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XHExt.m"; sourceTree = "<group>"; };
 		F7DB59BA1F174963004430A5 /* XHUserDefaultsTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHUserDefaultsTool.h; sourceTree = "<group>"; };
 		F7DB59BB1F174963004430A5 /* XHUserDefaultsTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHUserDefaultsTool.m; sourceTree = "<group>"; };
-		F7DB59BE1F1749DB004430A5 /* XHAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAdViewController.h; sourceTree = "<group>"; };
-		F7DB59BF1F1749DB004430A5 /* XHAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAdViewController.m; sourceTree = "<group>"; };
-		F7DB59C01F1749DB004430A5 /* XHAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHAdViewController.xib; sourceTree = "<group>"; };
+		F7DB59C31F175738004430A5 /* XHNetWorkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHNetWorkRequest.h; sourceTree = "<group>"; };
+		F7DB59C41F175738004430A5 /* XHNetWorkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHNetWorkRequest.m; sourceTree = "<group>"; };
+		F7DB59C71F175F04004430A5 /* XHAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAdViewController.h; sourceTree = "<group>"; };
+		F7DB59C81F175F04004430A5 /* XHAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAdViewController.m; sourceTree = "<group>"; };
+		F7DB59C91F175F04004430A5 /* XHAdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHAdViewController.xib; sourceTree = "<group>"; };
+		F7DB59CE1F175F23004430A5 /* XHAdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHAdModel.h; sourceTree = "<group>"; };
+		F7DB59CF1F175F23004430A5 /* XHAdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAdModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -387,8 +390,8 @@
 		F79E06E21F023F1D00CA7859 /* NetWorkRequest */ = {
 			isa = PBXGroup;
 			children = (
-				F79E06E31F023F3400CA7859 /* XHNetWorkRequest.h */,
-				F79E06E41F023F3400CA7859 /* XHNetWorkRequest.m */,
+				F7DB59C31F175738004430A5 /* XHNetWorkRequest.h */,
+				F7DB59C41F175738004430A5 /* XHNetWorkRequest.m */,
 			);
 			path = NetWorkRequest;
 			sourceTree = "<group>";
@@ -466,11 +469,37 @@
 		F7DB59BD1F174986004430A5 /* Ad */ = {
 			isa = PBXGroup;
 			children = (
-				F7DB59BE1F1749DB004430A5 /* XHAdViewController.h */,
-				F7DB59BF1F1749DB004430A5 /* XHAdViewController.m */,
-				F7DB59C01F1749DB004430A5 /* XHAdViewController.xib */,
+				F7DB59C61F175F04004430A5 /* Controller */,
+				F7DB59CA1F175F04004430A5 /* Model */,
+				F7DB59CB1F175F04004430A5 /* View */,
 			);
 			path = Ad;
+			sourceTree = "<group>";
+		};
+		F7DB59C61F175F04004430A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB59C71F175F04004430A5 /* XHAdViewController.h */,
+				F7DB59C81F175F04004430A5 /* XHAdViewController.m */,
+				F7DB59C91F175F04004430A5 /* XHAdViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F7DB59CA1F175F04004430A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7DB59CE1F175F23004430A5 /* XHAdModel.h */,
+				F7DB59CF1F175F23004430A5 /* XHAdModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7DB59CB1F175F04004430A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -587,7 +616,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70724681EFBC53F005C624F /* Assets.xcassets in Resources */,
-				F7DB59C21F1749DB004430A5 /* XHAdViewController.xib in Resources */,
+				F7DB59CD1F175F04004430A5 /* XHAdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,6 +691,8 @@
 			files = (
 				F7D8F9B01F00E24200F3E4A8 /* UIView+XHExt.m in Sources */,
 				F7D8F9961F00B3D300F3E4A8 /* XHEssenceViewController.m in Sources */,
+				F7DB59C51F175738004430A5 /* XHNetWorkRequest.m in Sources */,
+				F7DB59CC1F175F04004430A5 /* XHAdViewController.m in Sources */,
 				F7D8F99C1F00B43A00F3E4A8 /* XHFollowViewController.m in Sources */,
 				F70724B51EFBCE4B005C624F /* main.m in Sources */,
 				F7204A251F00F5B800D1D958 /* UIBarButtonItem+XHExt.m in Sources */,
@@ -670,10 +701,9 @@
 				F7D8F99F1F00B47D00F3E4A8 /* XHMeTableViewController.m in Sources */,
 				F7D8F9931F00B39800F3E4A8 /* XHNavigationController.m in Sources */,
 				F7D8F9AD1F00E1D600F3E4A8 /* XHTabBar.m in Sources */,
+				F7DB59D01F175F23004430A5 /* XHAdModel.m in Sources */,
 				F7DB59BC1F174963004430A5 /* XHUserDefaultsTool.m in Sources */,
-				F79E06E51F023F3400CA7859 /* XHNetWorkRequest.m in Sources */,
 				F7D8F9991F00B41200F3E4A8 /* XHNewViewController.m in Sources */,
-				F7DB59C11F1749DB004430A5 /* XHAdViewController.m in Sources */,
 				F7D8F9AA1F00D9A000F3E4A8 /* UIImage+XHExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

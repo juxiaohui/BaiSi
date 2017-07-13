@@ -30,4 +30,6 @@
 
 #import <MJExtension.h>
 
+#import <UIImageView+WebCache.h>
+
 #endif /* XHPrefixHeader_pch */
